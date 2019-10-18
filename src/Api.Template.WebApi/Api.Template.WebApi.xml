@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Api.Template.WebApi</name>
+    </assembly>
+    <members>
+        <member name="M:Api.Template.CI.WebApi.Controllers.HealthCheckController.Get">
+            <summary>
+            Verify system's conectivity
+            </summary>
+            <param name="command"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Api.Template.CI.WebApi.Controllers.PersonaController.Get">
+            <summary>
+            Get Status List of Release Call
+            </summary>
+            <param name="command"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Api.Template.CI.WebApi.Controllers.PersonaController.Get(System.Guid)">
+            <summary>
+            Get Status List of Release Call By ID
+            </summary>
+            <param name="command"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Api.Template.CI.WebApi.Controllers.PersonaController.Get(System.String)">
+            <summary>
+            Get Status List of Release Call By Name
+            </summary>
+            <param name="command"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Api.Template.CI.WebApi.Controllers.PersonaController.Post(Api.Template.Domain.Commands.Personas.CreatePersonaCommand)">
+            <summary>
+            Post Status of Release Call
+            </summary>
+            <param name="command"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Api.Template.CI.WebApi.Controllers.PersonaController.Delete(System.Guid)">
+            <summary>
+            Delete a Status of Release Call
+            </summary>
+            <param name="command"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Api.Template.CI.WebApi.Controllers.PersonaController.Update(System.Guid,Api.Template.Domain.Commands.Personas.UpdatePersonaCommand)">
+            <summary>
+            Put Status of Release Call
+            </summary>
+            <param name="command"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
